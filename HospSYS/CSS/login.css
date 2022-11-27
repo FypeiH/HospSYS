@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,body{
+    background: #4683c1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.container .form{
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .form form .form-control{
+    min-height: 40px;
+    font-size: 15px;
+    width: 100%;
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.container .form form .forget-pass a{
+   font-size: 15px;
+}
+.container .form form .button{
+    background: #4683c1;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+    background: #4195e9;
+}
+.container .form form .link{
+    padding: 5px 0;
+}
+.container .form form .link a{
+    color: #4683c1;
+}
+.container .login-form form p{
+    font-size: 14px;
+}
+.container .row .alert{
+    font-size: 14px;
+}
+.login-form .logo{
+	position:absolute;
+	margin:0 auto;
+	left:0;
+	right:0;
+	width: 115px;
+	height:115px; 
+	top:-50px;
+}
+.login-form .logo img{
+	width:100%;
+	border-radius:50%;
+	box-shadow:0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.login-form h2{	
+	margin:45px 0 25px;
+}
+footer{
+    position: absolute;
+    top: 100%;
+    width: 100%;      
+}
+.form .logo{
+    position:absolute;
+	margin:0 auto;
+	left:0;
+	right:0;
+	width: 115px;
+	height:115px; 
+	top:-50px;
+}
+.form .logo img{
+	width:100%;
+	border-radius:50%;
+	box-shadow:0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.form h2{	
+	margin:45px 0 25px;
+}
+
+.card{
+
+	width:280px;
+	margin:0 auto; 
+	border-radius:10px;
+	box-shadow:0px 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.card-body{
+
+	padding-bottom:2px !important;
+	padding-top:10px !important;
+
+}
+
+.card p{
+
+	margin:0;
+	padding:0;
+
+}
+
+.icone-card{
+
+	font-size:60px;
+
+}
+
+.titulo-card{
+
+	font-size:15px;
+	text-align:right;
+
+}
+
+.subtitulo-card{
+
+	font-size:40px;
+	text-align:right;
+
+}
+
+.rodape-card{
+
+	font-size:13px;
+	text-align:center;
+
+}
